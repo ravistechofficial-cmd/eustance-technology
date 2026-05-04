@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #0A192F;
+    color: #F9FAFB;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* HEADER */
+.header {
+    background: #111827;
+    padding: 15px 0;
+}
+
+.logo {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+nav {
+    float: right;
+}
+
+nav a {
+    margin-left: 20px;
+    color: #F9FAFB;
+    text-decoration: none;
+}
+
+/* HERO */
+.hero {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    color: #6B7280;
+    margin-bottom: 20px;
+}
+
+/* BUTTONS */
+.btn {
+    background: #00C2CB;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 5px;
+    display: inline-block;
+}
+
+.btn.secondary {
+    background: transparent;
+    border: 1px solid #00C2CB;
+    color: #00C2CB;
+}
+
+/* SECTIONS */
+.section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.section.dark {
+    background: #111827;
+}
+
+/* GRID */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+
+/* CARD */
+.card {
+    background: #1F2937;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+}
+
+/* ABOUT */
+.about-text {
+    max-width: 700px;
+    margin: auto;
+}
+
+.highlight {
+    margin-top: 10px;
+    color: #00C2CB;
+}
+
+/* FOOTER */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #000;
+    font-size: 14px;
+}
